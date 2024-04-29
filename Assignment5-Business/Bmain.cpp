@@ -1,3 +1,17 @@
+//In this assignment, you will be creating a list of people and their respective positions within a company (owner, management, labor).
+
+//Start off by creating a base class called Person.  This class should contain a name, social security number and birth date as well as the appropriate accessors and mutators.
+
+//From the Person class, derive a Laborer class that also includes job, employee id, hourly salary and hours worked.  (With accessors and mutators)
+
+//From the Person class, derive a Manager class that also includes department, employee id, salary (With accessors and mutators)
+
+///From the Person class, derive an Owner class that also includes the percentage of the business they own and the date they became an owner (With accessors and mutators)
+
+//For each of the derived classes, also provide a function that describes what category the person is in (Laborer, Owner, Manager)
+
+//Write a program that will display a menu allowing the user to add laborers, managers and owners. As the user enters the information to each, it will be added to a vector.  There should be a menu option to display the vector which will show all data for all entries in the vector.  Checkout example6.C from the videos for an example.  There should also be an option to quit.
+
 #include <iostream>
 #include <string>
 #include <vector>
